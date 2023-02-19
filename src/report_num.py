@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-def poly_fit_report_nums(report_nums, deg, time_range=None, doPlot=False):
+def fit_report_nums(report_nums, deg, time_range=None, doPlot=False):
     """Use polynomials to fit the report numbers with time.
     
     Parameters
@@ -54,5 +54,5 @@ if __name__ == "__main__":
     # Use polynomials for fitting
     for time_range in [100, 200, 300]:
         for deg in range(1, 5):
-            normalize_coeff, times, coeffs = poly_fit_report_nums(report_nums, deg, time_range=time_range, doPlot=True)
+            normalize_coeff, times, coeffs = fit_report_nums(report_nums, deg, time_range=time_range, doPlot=True)
 
