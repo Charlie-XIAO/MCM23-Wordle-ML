@@ -22,4 +22,4 @@ For a given future solution word on a future date, develop a model that allows y
 
 ### Solutions
 
-`Q2-1.ipynb` analyzed the attributes ROC, POV, EYH, and EGH, and determinede their correlation with the distribution of trials.
+`Q2-1.ipynb` analyzed the attributes ROC, POV, EYH, and EGH, and determined their correlation with the distribution of number of trials. `Q2-2.ipynb` used the Decision Tree Regression model to predict the distribution for the word EERIE. `Q2-3.ipynb` used the Random Forest Regression model to predict the distribution for the word EERIE. `Q2-2.ipynb` and `Q2-3.ipynb` gave almost the same prediction.
